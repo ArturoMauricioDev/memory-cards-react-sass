@@ -1,0 +1,22 @@
+.Card{
+    width: 125px;
+    height: 125px;
+}
+.portada{
+    width: 100%;
+    height: 100%;
+    background-color: $color-variacion;
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-secundario;
+}
+
+.ReactFlipCard{
+    width: 100%0;
+    height: 100%;
+}

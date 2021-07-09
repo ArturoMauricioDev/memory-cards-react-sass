@@ -1,0 +1,16 @@
+@import "./componentes/styles/globales.scss";
+@import "./componentes/styles/Header";
+@import "./componentes/styles/Board";
+@import "./componentes/styles/Card";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $Fuente1;
+  background-color: $color-primario;
+}
+div:focus{
+  outline:none;
+}
