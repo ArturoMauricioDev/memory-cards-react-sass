@@ -10,7 +10,8 @@ export default ()=>{
         const index = Math.floor(Math.random()*fontAwesome.length)
         const card={
             icono: fontAwesome.splice(index, 1)[0],
-            fueAdivinada: false
+            fueAdivinada: false,
+            flipped: false
         }
 
         cards.push(card)

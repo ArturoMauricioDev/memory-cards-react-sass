@@ -8,7 +8,8 @@ export default function Board(props) {
             {
                 props.baraja.map((card,index)=>{
                     const estaSiendoComparada = props.parejaSeleccionada.indexOf(card)>=-1;
-                    return <Card key={index} icono={card.icono} estaSiendoComparada={estaSiendoComparada} selecionarCarta={()=>props.selecionarCarta(card)} fueAdivinada={card.fueAdivinada} />
+                    return <Card key={index} icono={card.icono} estaSiendoComparada={estaSiendoComparada} selecionarCarta={()=>props.selecionarCarta(card)} fueAdivinada={card.fueAdivinada}
+                    flipped={card.flipped} />
                 }
                 )
             }
